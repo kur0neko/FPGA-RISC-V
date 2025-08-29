@@ -1,0 +1,285 @@
+Time resolution is 1 ps
+Opening file!
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: 4, Instruction: xxxxxxxx, ALU Result: 0
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x29 <= 100
+🔍 PC: 8, Instruction: 10000e93, ALU Result: 256
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x29 <= 10000000
+🔍 PC: c, Instruction: 14e9e93, ALU Result: 268435456
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x28 <= 100
+🔍 PC: 10, Instruction: 10000e13, ALU Result: 256
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x28 <= 10000
+🔍 PC: 14, Instruction: 8e1e13, ALU Result: 65536
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x29 <= 10010000
+🔍 PC: 18, Instruction: 1de0eb3, ALU Result: 268500992
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x5 <= ffffffff
+🔍 PC: 1c, Instruction: fff00293, ALU Result: 4294967295
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 10010000, data = ffffffff, byte_en = 1111
+🔍 PC: 20, Instruction: 5ea023, ALU Result: 268500992
+Opening file!
+Opening file!
+1 1111
+
+✅ Writeback: x5 <= 7
+🔍 PC: 24, Instruction: 828293, ALU Result: 7
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 10010004, data = 00000007, byte_en = 1111
+🔍 PC: 28, Instruction: 5ea223, ALU Result: 268500996
+Opening file!
+Opening file!
+1 1111
+
+✅ Writeback: x5 <= fffffffb
+🔍 PC: 2c, Instruction: ffb00293, ALU Result: 4294967291
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 10010008, data = fffffffb, byte_en = 1111
+🔍 PC: 30, Instruction: 5ea423, ALU Result: 268501000
+Opening file!
+Opening file!
+1 1111
+
+📥 Load @ 10010000, result = fffffffb
+✅ Load WB: x5 <= fffffffb
+🔍 PC: 34, Instruction: ea283, ALU Result: 268500992
+Opening file!
+Opening file!
+0 0000
+
+📥 Load @ 10010004, result = ffffffff
+✅ Load WB: x6 <= ffffffff
+🔍 PC: 38, Instruction: 4ea303, ALU Result: 268500996
+Opening file!
+Opening file!
+0 0000
+
+📥 Load @ 10010008, result = 00000007
+✅ Load WB: x7 <= 7
+🔍 PC: 3c, Instruction: 8ea383, ALU Result: 268501000
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x28 <= fffffffb
+🔍 PC: 40, Instruction: 62fe33, ALU Result: 4294967291
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x28 <= ffffffff
+🔍 PC: 44, Instruction: 7e6e33, ALU Result: 4294967295
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a
+🔍 PC: 48, Instruction: 5a00f13, ALU Result: 90
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a00
+🔍 PC: 4c, Instruction: 8f1f13, ALU Result: 23040
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a0f
+🔍 PC: 50, Instruction: ff0f13, ALU Result: 23055
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a0f00
+🔍 PC: 54, Instruction: 8f1f13, ALU Result: 5902080
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a0fa5
+🔍 PC: 58, Instruction: a5f0f13, ALU Result: 5902245
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a0fa500
+🔍 PC: 5c, Instruction: 8f1f13, ALU Result: 1510974720
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x30 <= 5a0fa5f0
+🔍 PC: 60, Instruction: f0f0f13, ALU Result: 1510974960
+Opening file!
+Opening file!
+0 0000
+
+✅ Writeback: x28 <= a5f05a0f
+🔍 PC: 64, Instruction: 1ee4e33, ALU Result: 2783992335
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 1001000c, data = a5f05a0f, byte_en = 1111
+🔍 PC: 68, Instruction: 1cea623, ALU Result: 268501004
+Opening file!
+Opening file!
+1 1111
+
+✅ Writeback: x29 <= 1001000c
+🔍 PC: 6c, Instruction: ce8e93, ALU Result: 268501004
+Opening file!
+Opening file!
+0 0000
+
+📥 Load @ 1001000f, result = ffffffff
+✅ Load WB: x5 <= ffffffff
+🔍 PC: 70, Instruction: 3e8283, ALU Result: 268501007
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 1001000d, data = ffffffff, byte_en = 0010
+🔍 PC: 74, Instruction: 5e80a3, ALU Result: 268501005
+Opening file!
+Opening file!
+1 0010
+
+📥 Load @ 1001000c, result = 000000ff
+✅ Load WB: x5 <= ff
+🔍 PC: 78, Instruction: ec283, ALU Result: 268501004
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 1001000e, data = 000000ff, byte_en = 0100
+🔍 PC: 7c, Instruction: 5e8123, ALU Result: 268501006
+Opening file!
+Opening file!
+1 0100
+
+📥 Load @ 1001000e, result = 00000000
+✅ Load WB: x5 <= 0
+🔍 PC: 80, Instruction: 2e9283, ALU Result: 268501006
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 10010010, data = 00000000, byte_en = 0011
+🔍 PC: 84, Instruction: 5e9223, ALU Result: 268501008
+Opening file!
+Opening file!
+1 0011
+
+📥 Load @ 1001000c, result = 00000000
+✅ Load WB: x5 <= 0
+🔍 PC: 88, Instruction: ed283, ALU Result: 268501004
+Opening file!
+Opening file!
+0 0000
+
+📝 Store @ 10010012, data = 00000000, byte_en = 1100
+🔍 PC: 8c, Instruction: 5e9323, ALU Result: 268501010
+Opening file!
+Opening file!
+1 1100
+
+🔍 PC: 90, Instruction: 0, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: 94, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: 98, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: 9c, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: a0, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: a4, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: a8, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: ac, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: b0, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: b4, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: b8, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: bc, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
+0 0000
+
+🔍 PC: c0, Instruction: xxxxxxxx, ALU Result: 268501010
+Opening file!
+Opening file!
